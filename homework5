@@ -1,0 +1,6 @@
+a = int(input())
+while a!=0:
+    b = str(a)
+    c = len(b)
+    print(b[c::-1])
+    break
